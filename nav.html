@@ -1,40 +1,52 @@
-<nav>
-    <div>
-        <a href="/">
-            <div id="logo"><img src="image.png" alt="Home"/></div>
-            <div id="headtag"><img src="image.png" alt="Home"/></div>
-            <div id="tagline"><img src="image.png" alt="Home"/></div>
-        </a>
-    </div>
-    <div>
-        <a href="/" class="here">Home</a>
-        <a href="/about.html" >About</a>
-        <a href="/services.html" >Services</a>
-        <a href="/pricing.html" >Pricing</a>
-        <a href="/contact.html" >Contact Us</a>
-        <input id="srchbar" type="search" placeholder="Search">
-    </div>
-</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="media/logo.jpg" height=60px;></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-       <a class="navbar-brand" href="#">
-         <img alt="Brand" src="icon.png">
-         <span class=px-2>My Site</span>
-       </a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto">
-             <li class="nav-item ">
-                <a class="nav-link" href="#">Home Page </a>
-             </li>
-             <li class="nav-item">
-                <a class="nav-link" href="#">Page1</a>
-             </li>
-             <li class="nav-item">
-                <a class="nav-link" href="#">Page2</a>
-             </li>
-          </ul>
-       </div>
-</nav> -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="counseling.html">Counseling</a>
+          <a class="dropdown-item" href="parenting.html">Parenting</a>
+          <a class="dropdown-item" href="support.html">Support Groups</a>
+          <a class="dropdown-item" href="consultations.html">Consultations</a>
+        </div>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="sima-gordon.html">About Sima Gordon</a>
+          <a class="dropdown-item" href="four-sees.html">About The 4 Sees Approach</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="rabbinic.html">Rabbinic Endorsements</a>
+          <a class="dropdown-item" href="clients.html">Clients Talk</a>
+          <a class="dropdown-item dropdown-toggle" href="#" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">Published Works</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="sima-gordon.html">A</a>
+                  <a class="dropdown-item" href="four-sees.html">B</a>
+                </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+
+
+      </ul>
+  </div>
+</nav>
